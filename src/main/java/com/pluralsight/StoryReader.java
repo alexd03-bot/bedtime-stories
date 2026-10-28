@@ -31,7 +31,7 @@ public class StoryReader {
 
         }
         catch(FileNotFoundException e) {
-            System.out.println("We ain't got that");
+            System.out.println("We ain't got that file");
         }
         catch (IOException e) {
             System.out.println("ERROR");
